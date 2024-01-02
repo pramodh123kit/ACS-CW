@@ -1,0 +1,123 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+		      	"type":"House",
+            "bedrooms":3,
+		      	"price":750000,
+		      	"tenure":"Freehold",
+		      	"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+            "location":"Petts Wood Road, Petts Wood, Orpington",
+		      	"picture": "../src/assets/images/C.PNG",
+			      "url":"/property/prop1",
+            "status":"Sale",
+            "added": {
+              "month":"October",
+              "day":12,
+              "year":2022
+            }
+        },
+		{
+            "id":"prop2",
+			      "type":"Flat",
+            "bedrooms":2,
+		      	"price":399995,
+			      "tenure":"Freehold",
+			      "description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+		      	"location":" Bromley Common, Bromley, London, UK",
+		      	"picture":"../src/assets/images/C.PNG",
+			      "url":"/property/prop2",
+            "status":"Rent",
+            "added": {
+              "month":"September",
+              "day":14,
+              "year":2022
+            }
+        },
+        {
+            "id": "prop3",
+            "type": "Apartment",
+            "bedrooms": 1,
+            "price": 250000,
+            "tenure": "Leasehold",
+            "description": "Modern one-bedroom apartment with stunning city views. Open-plan living, fully equipped kitchen, and a stylish bathroom. Conveniently located near public transport and shopping centers.",
+            "location": " Petts Wood Road, Petts Wood, Orpington",
+            "picture": "../src/assets/images/C.PNG",
+            "url": "/property/prop3",
+            "status": "Sale",
+            "added": {
+              "month": "November",
+              "day": 5,
+              "year": 2022
+            }
+        },
+          {
+            "id": "prop4",
+            "type": "House",
+            "bedrooms": 4,
+            "price": 1200000,
+            "tenure": "Freehold",
+            "description": "Spacious four-bedroom family home in a quiet suburban neighborhood. Features a large backyard, modern kitchen, and multiple living areas. Close to schools, parks, and public transportation.",
+            "location": "Petts Wood Road, Petts Wood, Orpington",
+            "picture": "../src/assets/images/C.PNG",
+            "url": "/property/prop4",
+            "status": "Sale",
+            "added": {
+              "month": "December",
+              "day": 8,
+              "year": 2022
+            }
+          },
+          {
+            "id": "prop5",
+            "type": "Flat",
+            "bedrooms": 3,
+            "price": 850000,
+            "tenure": "Leasehold",
+            "description": "Contemporary three-bedroom flat with panoramic views. Open-concept design, high-end finishes, and a private balcony. Close to public transport, shopping, and entertainment.",
+            "location": "Petts Wood Road, Petts Wood, Orpington",
+            "picture": "../src/assets/images/C.PNG",
+            "url": "/property/prop5",
+            "status": "Sale",
+            "added": {
+              "month": "January",
+              "day": 20,
+              "year": 2023
+            }
+          },
+          {
+            "id": "prop6",
+            "type": "House",
+            "bedrooms": 0,
+            "price": 150000,
+            "tenure": "Leasehold",
+            "description": "Chic studio apartment in the heart of the arts district. Compact and stylish living space with modern amenities. Close to galleries, cafes, and public transportation.",
+            "location": "Petts Wood Road, Petts Wood, Orpington",
+            "picture": "../src/assets/images/C.PNG",
+            "url": "/property/prop6",
+            "status": "Rent",
+            "added": {
+              "month": "February",
+              "day": 3,
+              "year": 2023
+            }
+          },
+          {
+            "id": "prop7",
+            "type": "Townhouse",
+            "bedrooms": 3,
+            "price": 550000,
+            "tenure": "Freehold",
+            "description": "Quaint three-bedroom townhouse with a private garden. Traditional charm with modern updates. Conveniently located near schools, parks, and public transport.",
+            "location": "Petts Wood Road, Petts Wood, Orpington",
+            "picture": "../src/assets/images/C.PNG",
+            "url": "/property/prop7",
+            "status": "Sale",
+            "added": {
+              "month": "March",
+              "day": 12,
+              "year": 2023
+            }
+          }
+        ]
+      }
