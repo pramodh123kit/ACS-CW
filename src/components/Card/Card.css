@@ -30,11 +30,13 @@
 
 .card-link {
   display: inline-block;
-  padding: 5px 12px;
-  font-size: 19px;
+  padding: 10px 15px;
+  font-size: 16px;
   background-color: #ffe600;
   color: black;
   border-radius: 5px;
+  font-family: sans-serif;
+  width: 125px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -55,7 +57,9 @@
   cursor: pointer;
   margin-left: 18px;
   padding: 5px 15px;
+  margin-top: -100px;
   height: 40px;
+  padding-top: 10px;
   transition: background-color 0.3s ease;
 }
 
@@ -131,6 +135,11 @@
   .app {
     width: 100%;
     margin-left: 0;
+  }
+
+  .card-link {
+    width: 100px;
+    padding: 5px 10px;
   }
 
   .fav-card {

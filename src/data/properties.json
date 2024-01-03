@@ -9,8 +9,15 @@
 		      	"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
             "location":"Petts Wood Road, Petts Wood, Orpington",
 		      	"picture": "../src/assets/images/C.PNG",
+            "additionalImages": [
+              "../src/assets/images/C.PNG",
+              "../src/assets/images/C.PNG",
+              "../src/assets/images/C.PNG"
+            ],
 			      "url":"/property/prop1",
-            "status":"Sale",
+            "floorPlanImage":"../src/assets/images/C.PNG",
+            "googleMapsEmbedLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387743.59911923574!2d-74.11842906249999!3d40.70582503780192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1641208179533!5m2!1sen!2suk",
+            "availability":"Sale",
             "added": {
               "month":"October",
               "day":12,
@@ -27,7 +34,7 @@
 		      	"location":" Bromley Common, Bromley, London, UK",
 		      	"picture":"../src/assets/images/C.PNG",
 			      "url":"/property/prop2",
-            "status":"Rent",
+            "availability":"Rent",
             "added": {
               "month":"September",
               "day":14,
@@ -44,7 +51,7 @@
             "location": " Petts Wood Road, Petts Wood, Orpington",
             "picture": "../src/assets/images/C.PNG",
             "url": "/property/prop3",
-            "status": "Sale",
+            "availability": "Sale",
             "added": {
               "month": "November",
               "day": 5,
@@ -61,7 +68,7 @@
             "location": "Petts Wood Road, Petts Wood, Orpington",
             "picture": "../src/assets/images/C.PNG",
             "url": "/property/prop4",
-            "status": "Sale",
+            "availability": "Sale",
             "added": {
               "month": "December",
               "day": 8,
@@ -78,7 +85,7 @@
             "location": "Petts Wood Road, Petts Wood, Orpington",
             "picture": "../src/assets/images/C.PNG",
             "url": "/property/prop5",
-            "status": "Sale",
+            "availability": "Sale",
             "added": {
               "month": "January",
               "day": 20,
@@ -95,7 +102,7 @@
             "location": "Petts Wood Road, Petts Wood, Orpington",
             "picture": "../src/assets/images/C.PNG",
             "url": "/property/prop6",
-            "status": "Rent",
+            "availability": "Rent",
             "added": {
               "month": "February",
               "day": 3,
@@ -112,7 +119,7 @@
             "location": "Petts Wood Road, Petts Wood, Orpington",
             "picture": "../src/assets/images/C.PNG",
             "url": "/property/prop7",
-            "status": "Sale",
+            "availability": "Sale",
             "added": {
               "month": "March",
               "day": 12,

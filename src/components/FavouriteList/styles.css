@@ -1,8 +1,7 @@
 .favourite-list-wrapper {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid #ccc; */
-  overflow: auto; /* Add overflow to enable scrolling if the content exceeds the height */
+  overflow: auto;
   width: 680px;
   overflow-x: hidden;
   margin-top: -10px;
@@ -34,37 +33,19 @@
   background-color: #313030;
 }
 
-.remove-fav {
-  background-color: #413f3f;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  font-size: 1rem;
-  width: 240px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-left: 18px;
-  padding: 5px 15px;
-  height: 40px;
-  transition: background-color 0.3s ease;
-}
-.remove-fav:hover {
-  background-color: #313030;
-}
-
 .favourite-list-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  min-height: 50vh; /* Set a minimum height, adjust as needed */
-  width: 700px; /* Set a fixed width, adjust as needed */
-  margin: 0 auto; /* Center the container horizontally */
+  min-height: 50vh;
+  width: 700px;
+  margin: 0 auto;
   border: 1px solid #ccc;
   margin-top: 10px;
-  flex: 1; /* Take up available space */
-  box-shadow: 9px 9px 15px -12px;
+  flex: 1;
+  /box-shadow: 9px 9px 15px -12px;
   border-radius: 20px;
 }
 
@@ -114,6 +95,24 @@
 .fav-card-link:hover {
   background-color: #242424;
   color: white;
+}
+
+.remove-fav {
+  background-color: #413f3f;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  width: 240px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 18px;
+  padding: 5px 15px;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+.remove-fav:hover {
+  background-color: #313030;
 }
 
 .fav-card:hover {

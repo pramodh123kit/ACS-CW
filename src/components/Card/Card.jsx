@@ -2,12 +2,13 @@ import { useState } from "react";
 import DetailPage from "../DetailPage/DetailPage";
 import "./Card.css";
 
-const Card = ({ property, handleDragStart, addToFavourites }) => {
+const Card = ({
+  property,
+  handleDragStart,
+  addToFavourites,
+  handleViewDetails, // Assuming this is passed from the parent component
+}) => {
   const [showDetails, setShowDetails] = useState(false);
-
-  const handleViewDetails = () => {
-    setShowDetails(true);
-  };
 
   const handleCloseDetails = () => {
     setShowDetails(false);
@@ -17,7 +18,7 @@ const Card = ({ property, handleDragStart, addToFavourites }) => {
     addToFavourites(property);
   };
 
-  const { type, bedrooms, price, location, picture, status } = property;
+  const { type, bedrooms, price, location, picture, availability } = property;
 
   return (
     <div
@@ -30,9 +31,12 @@ const Card = ({ property, handleDragStart, addToFavourites }) => {
         <p className="card-title">Type {type}</p>
         <p className="card-text">Bedrooms: {bedrooms}</p>
         <p className="card-text">Price: {price}</p>
-        <p className="card-text">Status: To {status}</p>
+        <p className="card-text">Availability: To {availability}</p>
         <p className="card-text">Location: {location}</p>
-        <button className="card-link" onClick={handleViewDetails}>
+        <button
+          className="card-link"
+          onClick={() => handleViewDetails(property)}
+        >
           View Details
         </button>
         <button className="add-fav" onClick={handleAddToFavourites}>

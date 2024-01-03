@@ -6,12 +6,22 @@ import FavouriteList from "./components/FavouriteList/index.jsx";
 import SearchForm from "./components/SearchForm/index.jsx";
 import Card from "./components/Card/Card.jsx";
 import propertiesData from "./data/properties.json";
+import DetailPage from "./components/DetailPage/DetailPage.jsx";
 
 const App = () => {
   const [properties, setProperties] = useState(propertiesData.properties);
   const [searchTerm, setSearchTerm] = useState("");
   const [favourites, setFavourites] = useState([]);
   const [selectedAvailability, setSelectedAvailability] = useState("");
+  const [selectedProperty, setSelectedProperty] = useState(null);
+
+  const handleViewDetails = (property) => {
+    setSelectedProperty(property);
+  };
+
+  const handleCloseDetails = () => {
+    setSelectedProperty(null);
+  };
 
   const handleSearch = (term, availability) => {
     setSearchTerm(term);
@@ -54,7 +64,8 @@ const App = () => {
       (property.type.toLowerCase().includes(searchTerm.toLowerCase()) ||
         property.location.toLowerCase().includes(searchTerm.toLowerCase())) &&
       (selectedAvailability
-        ? property.status.toLowerCase() === selectedAvailability.toLowerCase()
+        ? property.availability.toLowerCase() ===
+          selectedAvailability.toLowerCase()
         : true)
   );
 
@@ -98,8 +109,15 @@ const App = () => {
               property={property}
               handleDragStart={handleDragStart}
               addToFavourites={addToFavourites}
+              handleViewDetails={handleViewDetails}
             />
           ))}
+          {selectedProperty && (
+            <DetailPage
+              property={selectedProperty}
+              onClose={handleCloseDetails}
+            />
+          )}
         </div>
         <FavouriteList
           favourites={favourites}

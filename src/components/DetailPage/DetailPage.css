@@ -1,16 +1,126 @@
-.property-container {
+.detailPage-container {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  background-color: rgb(163, 43, 43);
-  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  z-index: 1000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #121212;
+  width: 50%;
+  height: 80%;
+  overflow-y: auto;
 }
 
-.card-content {
-  background-color: blue;
+.detailPage-container .close {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 4rem;
+  color: #ffe600;
+  margin-top: -30px;
+}
+
+.detailPage-container .carousel-wrapper {
+  width: 500px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.detailPage-container .carousel-wrapper .carousel {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.detailPage-container .carousel-wrapper .carousel .slide {
+  width: 100%;
+  height: 100%;
+}
+
+.detailPage-container .detail-card-content {
+  text-align: left;
+  padding: 10px;
+}
+
+.detailPage-container .detail-card-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.detailPage-container .detail-text {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.detailPage-container Carousel {
+  width: 500px;
+  min-height: 500px;
+}
+
+.detailPage-container .carousel-wrapper .carousel .slide img {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+.carousel {
+  height: 400px;
+}
+
+.carousel img {
+  height: 400px;
+}
+
+.detailPage-container .detail-card-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffe600;
+}
+
+.detailPage-container .detail-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.attri-name {
+  color: #ffe600;
+}
+
+.TabList Tab {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .detailPage-container {
+    width: 80%; /* Adjust the width for smaller screens */
+    height: 90%; /* Adjust the height for smaller screens */
+  }
+
+  .detailPage-container .carousel-wrapper {
+    width: 90%; /* Adjust the width of the carousel for smaller screens */
+    height: 400px; /* Adjust the height of the carousel for smaller screens */
+  }
+
+  .detailPage-container .carousel-wrapper .carousel .slide img {
+    width: 100%; /* Make images inside the carousel responsive */
+    height: 100%; /* Make images inside the carousel responsive */
+    border-radius: 5px;
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+  .detailPage-container .detail-card-title {
+    font-size: 18px;
+  }
+
+  .detailPage-container .detail-text {
+    font-size: 16px;
+  }
 }

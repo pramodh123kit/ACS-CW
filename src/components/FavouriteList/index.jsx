@@ -71,7 +71,9 @@ const FavouriteList = ({
               <p className="fav-card-type">Type {property.type}</p>
               <p className="fav-card-text">Bedrooms: {property.bedrooms}</p>
               <p className="fav-card-text">Price: {property.price}</p>
-              <p className="fav-card-text">Status: To {property.status}</p>
+              <p className="fav-card-text">
+                availability: To {property.availability}
+              </p>
               <p className="fav-card-text">Location: {property.location}</p>
               <a href={"/"} className="fav-card-link">
                 View Details
