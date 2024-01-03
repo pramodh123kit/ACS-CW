@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./styles.css";
 
 const FavouriteList = ({
@@ -63,7 +63,7 @@ const FavouriteList = ({
             onDragEnd={(e) => handleDragEnd(e, property)}
           >
             <img
-              src={"../src/assets/images/C.PNG"}
+              src={property.picture}
               alt={property.type}
               className="fav-card-image"
             />
@@ -75,9 +75,7 @@ const FavouriteList = ({
                 availability: To {property.availability}
               </p>
               <p className="fav-card-text">Location: {property.location}</p>
-              <a href={"/"} className="fav-card-link">
-                View Details
-              </a>
+
               <button
                 className="remove-fav"
                 onClick={() => handlePropertyClick(property.id)}

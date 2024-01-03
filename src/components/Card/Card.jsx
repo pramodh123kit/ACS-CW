@@ -6,7 +6,7 @@ const Card = ({
   property,
   handleDragStart,
   addToFavourites,
-  handleViewDetails, // Assuming this is passed from the parent component
+  handleViewDetails,
 }) => {
   const [showDetails, setShowDetails] = useState(false);
 
