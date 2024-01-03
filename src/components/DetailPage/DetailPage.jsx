@@ -17,6 +17,7 @@ const DetailPage = ({ property, onClose }) => {
     floorPlanImage,
     googleMapsEmbedLink,
     additionalImages,
+    added,
   } = property;
 
   const [tabIndex, setTabIndex] = useState(0);
@@ -60,6 +61,10 @@ const DetailPage = ({ property, onClose }) => {
               <span className="attri-name">Tenure:</span> {tenure}
             </p>
             <p className="detail-text">
+              <span className="attri-name">Added Date:</span> {added.month}/
+              {added.day}/{added.year}
+            </p>
+            <p className="detail-text">
               <span className="attri-name">Location:</span> {location}
             </p>
             <Tabs
@@ -75,15 +80,26 @@ const DetailPage = ({ property, onClose }) => {
               <TabPanel>
                 <p className="detail-text">
                   <span className="attri-name">Desscription:</span>
+                  <br />
                   {description}
                 </p>
+              </TabPanel>
+
+              <TabPanel>
+                <div>
+                  <img
+                    src={floorPlanImage}
+                    alt={type}
+                    className="floor-image"
+                  />
+                </div>
               </TabPanel>
 
               <TabPanel>
                 <div className="map-container">
                   <iframe
                     title="Google Maps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387743.59911923574!2d-74.11842906249999!3d40.70582503780192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1641208179533!5m2!1sen!2suk"
+                    src={googleMapsEmbedLink}
                     width="100%"
                     height="400"
                     frameBorder="0"
@@ -91,12 +107,6 @@ const DetailPage = ({ property, onClose }) => {
                     aria-hidden="false"
                     tabIndex="0"
                   ></iframe>
-                </div>
-              </TabPanel>
-
-              <TabPanel>
-                <div>
-                  <img src={picture} alt={type} className="card-image" />
                 </div>
               </TabPanel>
             </Tabs>
