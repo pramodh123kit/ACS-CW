@@ -16,7 +16,6 @@ const SearchForm = ({ onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Implement your search logic here
     console.log("Search criteria:", {
       type,
       minPrice,
