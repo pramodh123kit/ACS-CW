@@ -57,9 +57,8 @@
   cursor: pointer;
   margin-left: 18px;
   padding: 5px 15px;
-  margin-top: -100px;
+  padding-bottom: 10px;
   height: 40px;
-  padding-top: 10px;
   transition: background-color 0.3s ease;
 }
 
@@ -99,6 +98,13 @@
   margin-top: 30px;
 }
 
+.card-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .app {
@@ -130,6 +136,11 @@
 @media screen and (max-width: 1024px) {
   .app-container {
     flex-direction: column;
+  }
+
+  .card-link {
+    width: 100px;
+    padding:5px;
   }
 
   .app {

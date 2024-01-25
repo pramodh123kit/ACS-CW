@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const SearchBar = ({ handleSearch }) => {
   const [searchValue, setSearchValue] = useState("");
-  const [filterType, setFilterType] = useState("");
+  const [setFilterType] = useState("");
 
   const handleFilter = (type) => {
     setFilterType(type);

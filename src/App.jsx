@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import Header from "./components/Header/index.jsx";
 import SearchBar from "./components/SearchBar/index.jsx";
 import FavouriteList from "./components/FavouriteList/index.jsx";
@@ -98,6 +98,12 @@ const App = () => {
 
   return (
     <>
+     <Helmet>
+        <meta 
+          http-equiv="Content-Security-Policy" 
+          content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval';" 
+        />
+      </Helmet>
       <Header />
       <SearchBar handleSearch={handleSearch} />
       <SearchForm />

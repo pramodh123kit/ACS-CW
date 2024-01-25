@@ -11,7 +11,11 @@
 		      	"picture":"../src/assets/images/props1/props1_1.PNG",
             "additionalImages": [
               "../src/assets/images/props1/props1_2.PNG",
-              "../src/assets/images/props1/props1_3.PNG"
+              "../src/assets/images/props1/props1_3.PNG",
+              "../src/assets/images/props1/props1_4.PNG",
+              "../src/assets/images/props1/props1_5.PNG",
+              "../src/assets/images/props1/props1_6.PNG"
+
             ],
 			      "url":"/property/prop1",
             "floorPlanImage":"../src/assets/images/props1/floor_plan/floor_plan.PNG",
@@ -34,7 +38,10 @@
 		      	"picture":"../src/assets/images/props2/props2_1.PNG",
             "additionalImages": [
               "../src/assets/images/props2/props2_2.PNG",
-              "../src/assets/images/props2/props2_3.PNG"
+              "../src/assets/images/props2/props2_3.PNG",
+              "../src/assets/images/props2/props2_4.PNG",
+              "../src/assets/images/props2/props2_5.PNG",
+              "../src/assets/images/props2/props2_6.PNG"
             ],
 			      "url":"/property/prop2",
             "floorPlanImage":"../src/assets/images/props2/floor_plan/floor_plan.PNG",
@@ -57,7 +64,10 @@
             "picture": "../src/assets/images/props3/props3_1.PNG",
             "additionalImages": [
               "../src/assets/images/props3/props3_2.PNG",
-              "../src/assets/images/props3/props3_3.PNG"
+              "../src/assets/images/props3/props3_3.PNG",
+              "../src/assets/images/props3/props3_4.PNG",
+              "../src/assets/images/props3/props3_5.PNG",
+              "../src/assets/images/props3/props3_6.PNG"
             ],
             "url": "/property/prop3",
             "floorPlanImage":"../src/assets/images/props3/floor_plan/floor_plan.PNG",
@@ -80,7 +90,10 @@
             "picture": "../src/assets/images/props4/props4_1.PNG",
             "additionalImages": [
               "../src/assets/images/props4/props4_2.PNG",
-              "../src/assets/images/props4/props4_3.PNG"
+              "../src/assets/images/props4/props4_3.PNG",
+              "../src/assets/images/props4/props4_4.PNG",
+              "../src/assets/images/props4/props4_5.PNG",
+              "../src/assets/images/props4/props4_6.PNG"
             ],
             "url": "/property/prop4",
             "floorPlanImage":"../src/assets/images/props4/floor_plan/floor_plan.PNG",
@@ -99,11 +112,14 @@
             "price": "£ 1,100,000",
             "tenure": "Leasehold",
             "description": "A fantastic opportunity to purchase a block of four modern two bedrooms apartments, set amongst some delightful communal gardens and also featuring allocated parking spaces. All the properties are currently let out with tenants in place and offers a total yearly income of approximately £60,900. The impressive apartments feature spacious living accommodation with contemporary kitchens, a bathroom, en-suite and electric central heating. Located just off Green Lane to the north of the city, there is easy access to both the outer ring road and Clifton Moor shopping park. Laid out as two properties on the ground floor and two on the first, the apartments are reached via a secure communal hallway with either a lift or a staircase to access the first floor.",
-            "location": "Clifton View Apartments, Green Lane, York, YO30",
+            "location": "Clifton View Apartments, Green Lane, York,",
             "picture": "../src/assets/images/props5/props5_1.PNG",
             "additionalImages": [
               "../src/assets/images/props5/props5_2.PNG",
-              "../src/assets/images/props5/props5_3.PNG"
+              "../src/assets/images/props5/props5_3.PNG",
+              "../src/assets/images/props5/props5_4.PNG",
+              "../src/assets/images/props5/props5_5.PNG",
+              "../src/assets/images/props5/props5_6.PNG"
             ],
             "url": "/property/prop5",
             "floorPlanImage":"../src/assets/images/props5/floor_plan/floor_plan.PNG",
@@ -122,11 +138,14 @@
             "price": "£ 795,000",
             "tenure": "Leasehold",
             "description": "THREE BEDROOM PENTHOUSE apartment in this EXCEPTIONAL development within YORK CITY WALLS in a extremely close proximity of YORK RAILWAY STATION. Generous open plan living spaces and full height vista windows enhance the light and airy feel of this apartment with exceptional attention to detail demonstrated throughout. The stylish open plan living kitchen dining room area have been finished to the highest standards with energy efficient, quality integrated Siemens appliances. Silestone solid worktops with matching splashbacks and bespoke silestone topped island units with eye catching pendant lighting adding the finishing touches to this carefully planned dining space leading on to a Juliette balcony over looking Toft Green into York city centre.",
-            "location": "58 Kings, Hudson Quarter, Toft Green, York, YO1 6AE",
+            "location": "58 Kings, Hudson Quarter, Toft Green, York, YO1",
             "picture": "../src/assets/images/props6/props6_1.PNG",
             "additionalImages": [
                "../src/assets/images/props6/props6_2.PNG",
-               "../src/assets/images/props6/props6_3.PNG"
+               "../src/assets/images/props6/props6_3.PNG",
+               "../src/assets/images/props6/props6_4.PNG",
+               "../src/assets/images/props6/props6_5.PNG",
+               "../src/assets/images/props6/props6_6.PNG"
             ],
             "url": "/property/prop6",
             "floorPlanImage":"../src/assets/images/props6/floor_plan/floor_plan.PNG",
@@ -149,7 +168,10 @@
             "picture":  "../src/assets/images/props7/props7_1.PNG",
             "additionalImages": [
               "../src/assets/images/props7/props7_2.PNG",
-              "../src/assets/images/props7/props7_3.PNG"
+              "../src/assets/images/props7/props7_3.PNG",
+              "../src/assets/images/props7/props7_4.PNG",
+              "../src/assets/images/props7/props7_5.PNG",
+              "../src/assets/images/props7/props7_6.PNG"
             ],
             "url": "/property/prop7",
             "floorPlanImage":"../src/assets/images/props7/floor_plan/floor_plan.PNG",

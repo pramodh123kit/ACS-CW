@@ -33,7 +33,8 @@ const Card = ({
         <p className="card-text">Price: {price}</p>
         <p className="card-text">Availability: To {availability}</p>
         <p className="card-text">Location: {location}</p>
-        <button
+        <div className="card-button-container">
+          <button
           className="card-link"
           onClick={() => handleViewDetails(property)}
         >
@@ -42,6 +43,8 @@ const Card = ({
         <button className="add-fav" onClick={handleAddToFavourites}>
           Add to Favourites
         </button>
+        </div>
+        
         {showDetails && (
           <DetailPage property={property} onClose={handleCloseDetails} />
         )}
