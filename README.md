@@ -1,8 +1,13 @@
-# React + Vite
+# Property Search Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This client-side web application provides property search functionality similar to rightmove.co.uk. Users can search for properties based on type, price range, bedrooms, date added, and postcode area. The application is built using HTML5 and React JS, ensuring reliability, accessibility, and consistency.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Property Search**: Users can search for properties using various criteria.
+- **Dynamic Filtering**: JSON property data is dynamically filtered based on user input.
+- **Neat Display**: Search results are presented in a clear format with images, descriptions, and prices.
+- **Detailed Property Pages**: Detailed property pages feature large images, thumbnails, and organized tabs for additional information.
+- **Favorites Management**: Users can easily save and manage favorite properties.
+- **Responsive Design**: The application adapts to different devices for optimal viewing.
+- **Security Measures**: Measures are in place to protect against client-side hacking.
